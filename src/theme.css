@@ -1,0 +1,270 @@
+/* ─── Shared design tokens (light / dark) ──────────────────── */
+
+:root {
+  /* Surfaces */
+  --card-bg: #f8f9fa;
+  --card-bg-raised: #fff;
+  --surface-muted: #f7fafc;
+  --input-bg: #fff;
+
+  /* Borders */
+  --border-color: #e2e8f0;
+  --panel-border: #e2e8f0;
+
+  /* Text */
+  --muted-text: #718096;
+  --empty-text: #a0aec0;
+  --heading-color: #2d3748;
+
+  /* Interactive */
+  --hover-bg: #f7fafc;
+  --selected-bg: #ebf8ff;
+  --active-bg: #f0fff4;
+  --hidden-bg: #f7fafc;
+  --key-bg: #edf2f7;
+  --table-header-bg: #edf2f7;
+  --block-hover: rgba(0, 0, 0, 0.04);
+
+  /* Semantic: status */
+  --income-color: #276749;
+  --expense-color: #c53030;
+  --income-bg: #e6f7ff;
+  --net-bg: #f6ffed;
+  --accent-bg: #fff7ed;
+
+  /* Semantic: table */
+  --table-alt-row: #f7fafc;
+
+  /* Meal planning */
+  --meal-bg: #bee3f8;
+  --meal-border: #90cdf4;
+  --skip-bg: #e2e8f0;
+  --skip-border: #cbd5e0;
+
+  /* Article / TOC */
+  --toc-title: #1a202c;
+  --toc-item-primary: #1a202c;
+  --toc-item-secondary: #2d3748;
+
+  /* Spreadsheet */
+  --formula-color: #2b6cb0;
+  --delete-bg: #fed7d7;
+  --delete-color: #c53030;
+  --add-btn-hover: #718096;
+
+  /* Settings */
+  --icon-color: #2b6cb0;
+
+  /* Sidebar */
+  --sidebar-bg: #ffffff;
+
+  /* Ingredient Detail panels */
+  --panel-blue-bg: #ebf8ff;
+  --panel-blue-border: #4299e1;
+  --panel-blue-heading: #2c5282;
+  --panel-blue-text: #2b6cb0;
+
+  --panel-orange-bg: #fffaf0;
+  --panel-orange-border: #ed8936;
+  --panel-orange-heading: #9c4221;
+  --panel-orange-text: #c05621;
+
+  --panel-purple-bg: #faf5ff;
+  --panel-purple-border: #9f7aea;
+  --panel-purple-heading: #553c9a;
+  --panel-purple-text: #6b46c1;
+
+  --panel-teal-bg: #e6fffa;
+  --panel-teal-border: #38b2ac;
+  --panel-teal-heading: #234e52;
+  --panel-teal-text: #2c7a7b;
+
+  --panel-red-bg: #fff5f5;
+  --panel-red-border: #fc8181;
+  --panel-red-heading: #c53030;
+  --panel-red-text: #e53e3e;
+
+  --panel-green-bg: #f0fff4;
+  --panel-green-border: #68d391;
+  --panel-green-heading: #276749;
+  --panel-green-text: #2f855a;
+  --panel-green-accent-bg: #c6f6d5;
+  --panel-green-accent-border: #9ae6b4;
+
+  --dropdown-bg: #fff;
+  --dropdown-border: #e2e8f0;
+  --dropdown-hover: #f7fafc;
+  --dropdown-divider: #edf2f7;
+
+  /* Calendar */
+  --cal-grid-border: #edf2f7;
+  --cal-time-text: #a0aec0;
+  --cal-header-bg: #f8f9fa;
+  --cal-hover-bg: #f7fafc;
+  --cal-today-bg: #fffaf0;
+  --cal-event-opacity: 0.85;
+  --cal-drag-badge-bg: #fff;
+  --cal-drag-badge-border: #e2e8f0;
+  --cal-drag-badge-text: #2d3748;
+
+  /* Nutrition Facts */
+  --nf-border: #1a202c;
+  --nf-border-medium: #cbd5e0;
+  --nf-border-light: #e2e8f0;
+  --nf-border-subtle: #edf2f7;
+  --nf-heading: #1a202c;
+  --nf-text: #1a202c;
+  --nf-text-secondary: #4a5568;
+  --nf-text-muted: #718096;
+  --nf-text-faint: #a0aec0;
+  --nf-accent: #2b6cb0;
+  --nf-accent-border: #4299e1;
+  --nf-edit-bg: #f7fafc;
+  --nf-edit-border: #ed8936;
+  --nf-add-bg: #fffff0;
+  --nf-add-border: #ed8936;
+  --nf-add-heading: #9c4221;
+  --nf-success-bg: #c6f6d5;
+  --nf-success-border: #48bb78;
+  --nf-success-text: #276749;
+}
+
+.dark {
+  /* Surfaces */
+  --card-bg: #16213e;
+  --card-bg-raised: #1e1e2e;
+  --surface-muted: #171923;
+  --input-bg: #1a202c;
+
+  /* Borders */
+  --border-color: #2d3748;
+  --panel-border: #4a5568;
+
+  /* Text */
+  --muted-text: #a0aec0;
+  --empty-text: #718096;
+  --heading-color: #e2e8f0;
+
+  /* Interactive */
+  --hover-bg: #2d3748;
+  --selected-bg: #1a365d;
+  --active-bg: #1c4532;
+  --hidden-bg: #1a202c;
+  --key-bg: #0f3460;
+  --table-header-bg: #2d3748;
+  --block-hover: rgba(255, 255, 255, 0.04);
+
+  /* Semantic: status */
+  --income-color: #68d391;
+  --expense-color: #fc8181;
+  --income-bg: #1a2f40;
+  --net-bg: #1a3020;
+  --accent-bg: #7b341e;
+
+  /* Semantic: table */
+  --table-alt-row: #1e2430;
+
+  /* Meal planning */
+  --meal-bg: #2a4365;
+  --meal-border: #2b6cb0;
+  --skip-bg: #4a5568;
+  --skip-border: #718096;
+
+  /* Article / TOC */
+  --toc-title: #fff;
+  --toc-item-primary: #e2e8f0;
+  --toc-item-secondary: #cbd5e0;
+
+  /* Spreadsheet */
+  --formula-color: #63b3ed;
+  --delete-bg: #63171b;
+  --delete-color: #feb2b2;
+  --add-btn-hover: #cbd5e0;
+
+  /* Settings */
+  --icon-color: #90cdf4;
+
+  /* Sidebar */
+  --sidebar-bg: #111827;
+
+  /* Ingredient Detail panels */
+  --panel-blue-bg: #1a365d;
+  --panel-blue-border: #2b6cb0;
+  --panel-blue-heading: #90cdf4;
+  --panel-blue-text: #63b3ed;
+
+  --panel-orange-bg: #3c2415;
+  --panel-orange-border: #dd6b20;
+  --panel-orange-heading: #fbd38d;
+  --panel-orange-text: #f6ad55;
+
+  --panel-purple-bg: #2d2150;
+  --panel-purple-border: #805ad5;
+  --panel-purple-heading: #d6bcfa;
+  --panel-purple-text: #b794f4;
+
+  --panel-teal-bg: #1a3a3a;
+  --panel-teal-border: #319795;
+  --panel-teal-heading: #81e6d9;
+  --panel-teal-text: #4fd1c5;
+
+  --panel-red-bg: #3b1a1a;
+  --panel-red-border: #fc8181;
+  --panel-red-heading: #feb2b2;
+  --panel-red-text: #fc8181;
+
+  --panel-green-bg: #1c4532;
+  --panel-green-border: #38a169;
+  --panel-green-heading: #68d391;
+  --panel-green-text: #48bb78;
+  --panel-green-accent-bg: #22543d;
+  --panel-green-accent-border: #38a169;
+
+  --dropdown-bg: #1a202c;
+  --dropdown-border: #2d3748;
+  --dropdown-hover: #2d3748;
+  --dropdown-divider: #2d3748;
+
+  /* Calendar */
+  --cal-grid-border: #2d3748;
+  --cal-time-text: #4a5568;
+  --cal-header-bg: #1a202c;
+  --cal-hover-bg: #1e2430;
+  --cal-today-bg: #2d2215;
+  --cal-event-opacity: 0.9;
+  --cal-drag-badge-bg: #1a202c;
+  --cal-drag-badge-border: #2d3748;
+  --cal-drag-badge-text: #e2e8f0;
+
+  /* Nutrition Facts */
+  --nf-border: #e2e8f0;
+  --nf-border-medium: #4a5568;
+  --nf-border-light: #2d3748;
+  --nf-border-subtle: #1a202c;
+  --nf-heading: #e2e8f0;
+  --nf-text: #e2e8f0;
+  --nf-text-secondary: #cbd5e0;
+  --nf-text-muted: #a0aec0;
+  --nf-text-faint: #718096;
+  --nf-accent: #63b3ed;
+  --nf-accent-border: #63b3ed;
+  --nf-edit-bg: #2d3748;
+  --nf-edit-border: #dd6b20;
+  --nf-add-bg: #2d3748;
+  --nf-add-border: #dd6b20;
+  --nf-add-heading: #fbd38d;
+  --nf-success-bg: #1c4532;
+  --nf-success-border: #38a169;
+  --nf-success-text: #68d391;
+}
+
+/* ─── Utility animations ──────────────────────────────────── */
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}

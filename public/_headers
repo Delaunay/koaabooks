@@ -1,0 +1,14 @@
+# Cloudflare Pages: always revalidate the files that decide which version runs,
+# so a new deploy reaches installed phones on their next launch.
+/sw.js
+  Cache-Control: no-cache
+/registerSW.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+
+# Hashed build files never change.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
